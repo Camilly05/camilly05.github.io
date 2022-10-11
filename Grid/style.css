@@ -1,0 +1,14 @@
+
+body{
+  background: rgb(233, 160, 172);
+}
+form{   
+  background: lightcoral;
+  color: white;
+  border: 3px solid black;
+  padding: 10px;
+  margin: 10px;
+  width: 400px;
+  border-radius:  10px;
+  display:grid;
+ 

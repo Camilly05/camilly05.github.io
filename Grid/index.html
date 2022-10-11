@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width">
+    <link rel='stylesheet'  href="style.css">
+	<div id="flex.container"> </div>
+<form action="/pagina-processa-dados-do-form" method="post">
+  
+    <label for="name">Nome:</label>
+        <input type="text" id="name" />
+  
+    <label for="mail">E-mail:</label>
+        <input type="email" id="mail" />
+  
+    <label for="date">Data:</label>
+        <input type="text" name="dia" size="2" maxlength="2" value="dd"> 
+        <input type="text" name="mes" size="2" maxlength="2" value="mm"> 
+        <input type="text" name="ano" size="4" maxlength="4" value="aaaa">
+    
+    <label for="Cor">Cor Preferida:</label>
+        <input type="color" id="Cor" />
+ 
+    <label for="text">Sexo:</label>
+        <input type="radio" name="opcao" value="op1"> Masculino
+        <input type="radio" name="opcao" value="op2"> Feminino
+    
+    <label for="text">Escolaridade:</label> 
+       <input type="checkbox" name="opcao" value="op1"> Ensino Fundamental
+       <input type="checkbox" name="opcao" value="op2"> Ensino Médio
+       <input type="checkbox" name="opcao" value="op2"> Superior
+   
+    <div class="button">
+        <button type="submit">Enviar Dados</button>
+    </div>
+  
+</form>
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
