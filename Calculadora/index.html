@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor</title>
+    <script src="scripts.js" defer></script>
+    <link rel='stylesheet'  href="style.css">
+</head>
+<body>
+    
+</body>
+</html>
+    <div class="tabs">
+        <button id="btn-0" class="tab">Conversor de graus Fahrenheit para Rankine</button>
+        <button id="btn-1" class="tab">Gerador de progressão aritmética</button>
+        <button id="btn-2" class="tab">Calculadora de área e volume de um cone</button>
+    </div>
+
+    <div class="container">
+        <div class="wrapper" id="wrapper-0">
+            <h1>Conversor de graus Fahrenheit para Rankine</h1>
+            <label>Temperatura Fahrenheit:</label>
+            <input type="number" id="entrada-ftor">
+            <label>Temperatura em Rankine:</label>
+            <input type="text" id="result-ftor" disabled></input>
+            <button class="calcula-btn" id="calcula-ftor">Calcular</button>
+    </div>
+
+    <div class="wrapper" id="wrapper-1">
+        <h1>Gerador de Progressão Aritmética</h1>
+        <label> Primeiro termo (a1):</label>
+        <input id="entrada-ti" type="number">
+        <label> Razão (R):</label>
+        <input id="entrada-razao" type="number"> 
+        <label> Qtde de termos (n): </label>
+        <input id="entrada-utermo" type="number"> 
+        <button class="exibir-btn" id="exibir-pa">Exibir PA</button>
+        <div id="result-wrapper"> <!-- tabuada será gerada aquio via JS--> </div>
+    </div>
+
+        <div class="wrapper" id="wrapper-2">
+            <h1>Calculadora de área e volume de um cone</h1>
+            <label>Área da base</label>
+            <input type="number" id="entrada-base">
+            <label>Área lateral</label>
+            <input type="number" id="entrada-lateral">
+            <label>Altura</label>
+            <input type="number" id="entrada-altura">
+            <label>Área do cone:</label>
+            <input type="number" id="result-area" disabled></input>
+            <label>Volume do cone:</label>
+            <input type="number" id="result-volume" disabled></input>
+            <button class="calcula-btn" id="calcula-btn" >Calcular</button>
+               
+        </div>
+    </div>
+</body>
+</html>
